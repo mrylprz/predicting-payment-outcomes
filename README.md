@@ -1,3 +1,4 @@
+![cover](https://github.com/mrylprz/predicting-payment-outcomes/blob/main/cover.png)
 # Invoice Payment Outcome Prediction
 
 ## Introduction
