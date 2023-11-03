@@ -1,4 +1,4 @@
-![cover](https://github.com/mrylprz/predicting-payment-outcomes/blob/main/cover.png)
+![cover](./cover.png)
 # Invoice Payment Outcome Prediction
 
 ## Introduction
@@ -49,12 +49,12 @@ Tool Used: Microsoft Excel
 
 ##### Distribution of Training Data
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Graphs/Figure%201%20-%20Distribution%20of%20Training%20Data.png" width="800">
+   <img src="./Graphs/Figure 1 - Distribution of Training Data.png" width="800">
 </p>
 
 ## List of Features
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/List%20of%20Features.png" width="800">
+   <img src="./Tables/List of Features.png" width="800">
 </p>
 
 Target Variable: **Age Bucket**
@@ -64,7 +64,7 @@ Five (5) different ML techniques are used in this report. Each model is assessed
 
 *Summary of Accuracy Metrics*
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/Summary%20of%20Accuracy%20Metrics.png" width="500">
+   <img src="./Tables/Summary of Accuracy Metrics.png" width="500">
 </p>
 
 The following supervised ML techniques were tested in predicting payment outcomes:
@@ -101,7 +101,7 @@ The table below summarises the characteristics of the supervised ML techniques u
 
 *Comparison of Models*
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/Comparison%20of%20Models.png" width="800">
+   <img src="./Tables/Comparison of Models.png" width="800">
 </p>
 
 **Tool Used: Orange**
@@ -111,26 +111,26 @@ The table below summarises the characteristics of the supervised ML techniques u
 *Data Analysis workflow in Orange*
 
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Graphs/Data%20Analysis%20Workflow%20in%20Orange.png" width="1000">
+   <img src="./Graphs/Data Analysis Workflow in Orange.png" width="1000">
 </p>
 
 ## Summary of Results
 
 *Accuracy Metrics Results (Overall)*
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/Accuracy%20Metrics%20(Overall).png" width="1000">
+   <img src="./Tables/Accuracy Metrics (Overall).png" width="1000">
 </p>
 
 *Accuracy Metrics Results (per Possible Outcome)*
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/Accuracy%20Metrics%20(Per%20Possible%20Outcome).png" width="1000">
+   <img src="./Tables/Accuracy Metrics (Per Possible Outcome).png" width="1000">
 </p>
 
 To ensure that the models are applicable for practical use, it is important the model can precisely classify outcomes and meet the objectives of building the model, helping the AR team on predicting whether an invoice will be paid on time or if not, how late it will likely be paid. Table 5 summarises the resulting confusion matrices.
 
 *Confusion Matrices*
 <p align="center">
-   <img src="https://github.com/mrylprz/predicting-payment-outcomes/blob/main/Tables/Confusion%20Matrices.png" width="1000">
+   <img src="./Tables/Confusion Matrices.png" width="1000">
 </p>
 
 Overall, the best model considering accuracy and usability is the Gradient Boosting technique. It is a good classifier especially for categorising invoices whether they will be paid on-time or not. Although it does not precisely predict age buckets of 2 and 3, it still categorises them as late invoices (age bucket 1) which can be utilised in prescribing the appropriate (proactive) actions in AR management. 
